@@ -17,9 +17,10 @@ allprojects {
 subprojects {
     val GROUP: String by project
     val LIBRARY_VERSION: String by project
+    val BUILD_NUMBER: String? by project
 
     group = GROUP
-    version = LIBRARY_VERSION
+    version = BUILD_NUMBER?.let { "$LIBRARY_VERSION.$it"} ?: "0.0.0"
 }
 
 tasks.register<Delete>("clean") {
