@@ -52,6 +52,6 @@ addGithubPackagesRepository()
 
 kmmbridge {
     mavenPublishArtifacts()
-    githubReleaseVersions()
+    manualVersions()
     spm()
 }
