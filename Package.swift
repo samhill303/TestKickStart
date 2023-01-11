@@ -1,9 +1,9 @@
 // swift-tools-version:5.3
 import PackageDescription
 
-let remoteKotlinUrl = "https://maven.pkg.github.com/touchlab/KMMBridgeKickStart/co/touchlab/kmmbridgekickstart/allshared-kmmbridge/0.13.0/allshared-kmmbridge-0.13.0.zip"
-let remoteKotlinChecksum = "fe57822fa8ae5806e791558b1a632c3cd3af6f185d8e866ff4e132f40f68a6d4"
-let packageName = "allshared"
+let remoteKotlinUrl = "https://maven.pkg.github.com/samhill303/TestKickStart/dev/samhill/kickstart/allshared-kmmbridge/0.3.7/allshared-kmmbridge-0.3.7.zip"
+let remoteKotlinChecksum = "a1e3d2274eb6a6970ede465e7d842cdc88bf2aa5bcb54795527ce5853b5c6fb7"
+let packageName = "KMMBridgeKickStart"
 
 let package = Package(
     name: packageName,
