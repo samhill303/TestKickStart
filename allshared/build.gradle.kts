@@ -52,10 +52,6 @@ addGithubPackagesRepository()
 
 kmmbridge {
     mavenPublishArtifacts()
-    // githubReleaseVersions()
-//    Android version is not automatically incremented in KMMBridge, so if you need it to be aligned with the iOS version
-//    use manualVersions instead of githubReleaseVersions to set version manually
-    manualVersions()
+    githubReleaseVersions()
     spm()
-//    cocoapods("git@github.com:touchlab/PodSpecs.git")
 }
